@@ -16,10 +16,6 @@ public class ButtonsAndTimer extends HBox {
 		lvl2.setFont(Font.font(20));
 		Label lvl3 = new Label("Level 3");
 		lvl3.setFont(Font.font(20));
-		
-		//CSS kode for styling 
-//		lvl1.setStyle("-fx-background-color:blue; -fx-border-color:blue; -fx-font-style:italic"
-//				+ "-fx-font-size:80em");
 
 		super.getChildren().addAll(lvl1, lvl2, lvl3);
 		super.setSpacing(15);
